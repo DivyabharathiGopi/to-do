@@ -27,7 +27,12 @@ function addTodo(){
     })
 
     checkBox.addEventListener('change',function(){
-        listItem.classList.add('container2');
+        if(checkBox.checked){
+            listItem.classList.add('container2');
+        }
+        else{
+            listItem.classList.remove('container2');
+        }
     })
 
     
