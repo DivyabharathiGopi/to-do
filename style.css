@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: crimson;
+    height: 500px;
+    color: wheat;
+
+   
+
+}
+button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+.container2{
+    text-decoration: line-through;
+    text-decoration-color: black;
+    font-size: 22px;
+}
